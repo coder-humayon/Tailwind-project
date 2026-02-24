@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+.container {
+    @apply max-w-[1283px] mx-auto px-4;
+}
+
+@theme {
+    --font-h: "Poppins", sans-serif; 
+    --font-u:"Manrope", sans-serif; 
+}
+
+@layer {
+    .menu ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #BBBBCB;
+        transition: ease-in-out 0.5s;
+        font-family: "Poppins", sans-serif;
+    }
+    .menu ul li a:hover {
+        color: #FFFFFF;
+    }
+}
